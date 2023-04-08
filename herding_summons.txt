@@ -1,0 +1,41 @@
+# Training Magery to 100 by Jaseowns
+# UO Outlands
+# https://youtu.be/zIGvPxBPTFk
+# Requirements:
+# Restock Agent 10 setup for regs
+# Invisibility: ~2100 Blood moss, Nightshade
+# Summon a water elemental: >~ 5000 Blood moss, Spider's Silk, Mandrake Root
+
+if findtype "a water elemental" true
+    #say 'no make summon'
+
+    skill 'Discordance' 88
+    wait 200 
+    lasttarget 
+    wait 500
+    
+    dclicktype 'lute' backpack
+    wait 5000
+    
+    say "[focusaggression"
+    wait 200
+    lasttarget 
+    
+    wait 500
+
+else 
+    say ' make summon'
+    hotkey "Water Elemental"
+    wait 5000    
+    say ' make summon'
+    hotkey "Water Elemental"
+    wait 5000  
+    say ' make summon'
+    hotkey "Water Elemental"
+    wait 5000      
+    say ' make summon'
+    hotkey "Water Elemental"
+    wait 5000 
+endif
+
+loop
