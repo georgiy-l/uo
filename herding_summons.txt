@@ -14,7 +14,7 @@ if findtype "a water elemental" true
     wait 200 
     lasttarget 
 
-    wait 500
+    wait 3000
     
     say "[focusaggression"
     wait 200
